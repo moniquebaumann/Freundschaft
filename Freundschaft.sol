@@ -13,6 +13,6 @@ pragma solidity ^0.8.20;
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 contract Freundschaft is ERC20 {
     constructor() ERC20("Freundschaft", "FREUND") {
-        _mint(msg.sender, 9000000000 * 10 ** decimals()); 
+        _mint(msg.sender, 360000000000 * 10 ** decimals()); 
     }
 }
